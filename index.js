@@ -1,1 +1,1 @@
-import(".nuxt/dist/server/server.mjs");
+import(".output/server/index.mjs");
