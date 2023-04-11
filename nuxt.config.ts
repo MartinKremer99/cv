@@ -9,5 +9,4 @@ export default defineNuxtConfig({
   imports: {
     dirs: ["./stores"],
   },
-  ssr: false,
 });
