@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .input {
+    @apply m-2 border valid:border-gray-200 required:invalid:border-red-500;
+  }
+  .submitbutton {
+    @apply disabled:opacity-50 border rounded-md bg-green-300;
+  }
+}
